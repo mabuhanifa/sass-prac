@@ -1,6 +1,18 @@
+//variable declaration
+$header-color: #424242;
+$main-bg: #dfdfdf;
+$font-sz: 20px;
+
 /* browser reset code*/
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+body {
+  background-color: $main-bg;
+}
+h2 {
+  color: $header-color;
+  font-size: $font-sz;
 }
