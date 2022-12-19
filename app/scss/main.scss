@@ -5,3 +5,14 @@
 h1 {
   color: var.$header-bg;
 }
+
+@mixin para-style {
+  font-size: 16px;
+  text-align: justify;
+  color: red;
+}
+section {
+  p {
+    @include para-style;
+  }
+}
