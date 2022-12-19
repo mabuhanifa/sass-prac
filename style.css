@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Arial Narrow", Arial, sans-serif;
 }
 
 body {
@@ -12,4 +13,18 @@ body {
 h2 {
   color: #424242;
   font-size: 20px;
+}
+
+nav ul {
+  color: rgb(184, 2, 2);
+  font-weight: 500;
+  display: flex;
+  list-style-type: none;
+}
+nav ul li {
+  padding: 20px;
+}
+nav ul li:hover {
+  background-color: #8a8a8a;
+  border-radius: 1rem;
 }/*# sourceMappingURL=style.css.map */

@@ -8,6 +8,8 @@ $font-sz: 20px;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif, "Arial Narrow",
+    Arial, sans-serif;
 }
 body {
   background-color: $main-bg;
@@ -15,4 +17,20 @@ body {
 h2 {
   color: $header-color;
   font-size: $font-sz;
+}
+
+nav {
+  ul {
+    color: rgb(184, 2, 2);
+    font-weight: 500;
+    display: flex;
+    list-style-type: none;
+    li {
+      padding: 20px;
+    }
+    li:hover {
+      background-color: #8a8a8a;
+      border-radius: 1rem;
+    }
+  }
 }
