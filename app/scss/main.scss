@@ -1,2 +1,7 @@
 /* browser reset code*/
 @forward "./base/index";
+@use "./util/index" as var;
+
+h1 {
+  color: var.$header-bg;
+}

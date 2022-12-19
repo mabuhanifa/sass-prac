@@ -1,12 +1,1 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  list-style-type: none;
-  text-decoration: none;
-  outline: none;
-}
-h6 {
-  margin-top: 0;
-  color: #003cff;
-} /*# sourceMappingURL=main.css.map */
+*{margin:0;padding:0;box-sizing:border-box;list-style-type:none;text-decoration:none;outline:none}h6{margin-top:0;color:#003cff}h1{color:#001aff}/*# sourceMappingURL=main.css.map */
