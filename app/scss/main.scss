@@ -11,8 +11,16 @@ h1 {
   text-align: justify;
   color: red;
 }
+@mixin head($size, $style) {
+  font-size: $size;
+  text-align: $style;
+  color: orange;
+}
 section {
   p {
     @include para-style;
+  }
+  h2 {
+    @include head(25px, left);
   }
 }
