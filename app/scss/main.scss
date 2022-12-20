@@ -16,6 +16,17 @@ h1 {
   text-align: $style;
   color: orange;
 }
+@mixin setFontSize($value) {
+  @if $value == small {
+    font-size: 12px;
+  } @else if $value == medium {
+    font-size: 16px;
+  } @else if $value == large {
+    font-size: 20px;
+  } @else {
+    font-size: none;
+  }
+}
 
 .btn {
   border: none;
@@ -23,9 +34,13 @@ h1 {
   text-align: center;
   font-size: 20px;
   cursor: pointer;
+  background-color: rgb(88, 88, 255);
+  color: white;
 }
 .btn-download {
   @extend .btn;
+  border-radius: 5px;
+  @include setFontSize(large);
 }
 section {
   p {
