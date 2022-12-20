@@ -61,6 +61,23 @@ section {
   }
 }
 
+// @each $color in red, green, blue {
+//   .#{$color}-text {
+//     color: $color;
+//   }
+// }
+
+$colors: (
+  color1: red,
+  color2: green,
+  color3: blue,
+);
+
+@each $key, $color in $colors {
+  .#{$color}-text {
+    color: $color;
+  }
+}
 // $i: 1;
 // @while $i <13 {
 //   .col-#{$i} {
