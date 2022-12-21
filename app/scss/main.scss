@@ -55,11 +55,15 @@ section {
   float: left;
 }
 
+/*__________loop_________*/
+
 @for $i from 1 through 12 {
   .col-#{$i} {
     width: 100%/12 * $i;
   }
 }
+
+/*__________map_________*/
 
 // @each $color in red, green, blue {
 //   .#{$color}-text {
@@ -67,17 +71,22 @@ section {
 //   }
 // }
 
+/*__________for map_________*/
 $colors: (
   color1: red,
   color2: green,
   color3: blue,
 );
 
+/*__________map_________*/
 @each $key, $color in $colors {
   .#{$color}-text {
     color: $color;
   }
 }
+
+/*__________while loop_________*/
+
 // $i: 1;
 // @while $i <13 {
 //   .col-#{$i} {
